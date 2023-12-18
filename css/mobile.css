@@ -1,0 +1,48 @@
+/*Navbar*/
+#navbar{
+    flex-direction: column;
+    padding-bottom:1.5rem;
+    justify-content: space-around;
+}
+#navbar .logo{
+      margin-bottom: 1rem;  
+}
+.l-heading{
+    font-size:2.5;
+    line-height: 1.2;
+}
+.lead{
+    font-size:1rem;
+    line-height: 1.2rem;
+}
+/*about*/
+#about .about-content{
+    display: block;
+    text-align:center;
+}
+#about .about-content img{
+    width:100%;
+    margin:1rem 0 0 0;
+}
+/* programs section*/
+#progress .boxes{
+    display:block;
+}
+#trainers .container .trainer-boxes{
+    display: block;
+}
+#contact{
+    flex-direction: column;
+}
+@media (max-width:500px){
+    #navbar ul{
+        display:block;
+        align-items: center;
+    }
+    #navbar ul li{
+        padding:1rem;
+    }
+    #contact .contact-us .form-group{
+        display:block;
+    }
+}
