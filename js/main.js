@@ -33,10 +33,7 @@ function validateForm() {
 showPopupBtn.addEventListener("click", () => {
     document.body.classList.toggle("show-popup");
 });
-function g(){
-  document.body.classList.toggle("hide-popup");
-document.location="#home";
-}
+
 // Hide login popup
 hidePopupBtn.addEventListener("click", () => showPopupBtn.click());
 
